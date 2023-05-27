@@ -396,7 +396,13 @@
         388,
         389,
         390,
-        391
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -14092,7 +14098,7 @@
     {
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/8995565923215908413.rsp",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "-s \"EXPORTED_RUNTIME_METHODS=['addRunDependency','removeRunDependency','FS_createPath','FS_createDataFile','ccall','cwrap','stackTrace']\" --output_eol linux --memory-init-file 0 -s WASM=1 -O3 -g0 -s NO_EXIT_RUNTIME=1 -s \"DISABLE_EXCEPTION_CATCHING=0\" -s \"FULL_ES3=1\" -s \"MAX_WEBGL_VERSION=2\" -s \"GL_EXPLICIT_UNIFORM_LOCATION=1\" -s \"GL_EXPLICIT_UNIFORM_BINDING=1\" -s \"DYNCALLS=1\" -s \"INITIAL_MEMORY=32MB\" -s \"ALLOW_MEMORY_GROWTH=1\" -s \"ASSERTIONS=0\" -o \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Audio.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/case_1371148_patch_library_html5_firefox_touchevents.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Cursor.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/dlopen.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/DOM.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Eval.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/FileSystem.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Logging.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Profiler.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/ScreenOrientation.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Sensor.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/SystemInfo.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/UnetWebSocket.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Video.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebCam.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebRequest.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/_patch_library_exceptions.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/UserJsprePlaceholder.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/bw-compat.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/Error.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/FullScreen.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/IdbFs.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/MediaDevices.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/SendMessage.js\" \"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/VNU_GameDecision/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.bc\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AccessibilityModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AIModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AndroidJNIModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AnimationModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AssetBundleModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AudioModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ClothModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CoreModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CrashReportingModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DirectorModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DSPGraphModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GameCenterModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GIModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GridModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_HotReloadModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ImageConversionModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_IMGUIModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputLegacyModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_JSONSerializeModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_LocalizationModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ParticleSystemModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PerformanceReportingModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_Physics2DModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PhysicsModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ProfilerModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_RuntimeInitializeOnLoadManagerInitializerModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ScreenCaptureModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SharedInternalsModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteMaskModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteShapeModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_StreamingModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubstanceModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubsystemsModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainPhysicsModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreFontEngineModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreTextEngineModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextRenderingModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TilemapModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TLSModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIElementsModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIElementsNativeModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UmbraModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UNETModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsCommonModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityConnectModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityCurlModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityTestProtocolModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAssetBundleModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAudioModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestTextureModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestWWWModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VehiclesModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VFXModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VideoModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VRModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WebGLModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WindModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_XRModule_Dynamic.a\" ",
+      "WriteTextFilePayload": "-s \"EXPORTED_RUNTIME_METHODS=['addRunDependency','removeRunDependency','FS_createPath','FS_createDataFile','ccall','cwrap','stackTrace']\" --output_eol linux --memory-init-file 0 -s WASM=1 -O3 -g0 -s NO_EXIT_RUNTIME=1 -s \"DISABLE_EXCEPTION_CATCHING=1\" -s \"FULL_ES3=1\" -s \"MAX_WEBGL_VERSION=2\" -s \"GL_EXPLICIT_UNIFORM_LOCATION=1\" -s \"GL_EXPLICIT_UNIFORM_BINDING=1\" -s \"DYNCALLS=1\" -s \"INITIAL_MEMORY=32MB\" -s \"ALLOW_MEMORY_GROWTH=1\" -s \"ASSERTIONS=0\" -o \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Audio.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/case_1371148_patch_library_html5_firefox_touchevents.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Cursor.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/dlopen.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/DOM.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Eval.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/FileSystem.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Logging.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Profiler.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/ScreenOrientation.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Sensor.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/SystemInfo.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/UnetWebSocket.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Video.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebCam.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebRequest.js\" --js-library \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/_patch_library_exceptions.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/UserJsprePlaceholder.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/bw-compat.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/Error.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/FullScreen.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/IdbFs.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/MediaDevices.js\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/SendMessage.js\" \"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/VNU_GameDecision/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.bc\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AccessibilityModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AIModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AndroidJNIModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AnimationModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AssetBundleModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AudioModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ClothModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CoreModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CrashReportingModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DirectorModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DSPGraphModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GameCenterModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GIModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GridModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_HotReloadModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ImageConversionModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_IMGUIModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputLegacyModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_JSONSerializeModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_LocalizationModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ParticleSystemModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PerformanceReportingModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_Physics2DModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PhysicsModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ProfilerModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_RuntimeInitializeOnLoadManagerInitializerModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ScreenCaptureModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SharedInternalsModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteMaskModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteShapeModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_StreamingModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubstanceModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubsystemsModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainPhysicsModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreFontEngineModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreTextEngineModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextRenderingModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TilemapModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TLSModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIElementsModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIElementsNativeModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UmbraModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UNETModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsCommonModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityConnectModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityCurlModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityTestProtocolModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAssetBundleModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAudioModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestTextureModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestWWWModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VehiclesModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VFXModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VideoModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VRModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WebGLModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WindModule_Dynamic.a\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_XRModule_Dynamic.a\" --pre-js \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/ExceptionLogger.js\" ",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/8995565923215908413.rsp"
@@ -14192,6 +14198,7 @@
         "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WebGLModule_Dynamic.a",
         "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WindModule_Dynamic.a",
         "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_XRModule_Dynamic.a",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/ExceptionLogger.js",
         "Library/Bee/artifacts/emscripten/3f5fv/wrapper_emcc.bat",
         "Library/Bee/artifacts/rsp/8995565923215908413.rsp"
       ],
@@ -14265,13 +14272,13 @@
       "DebugActionIndex": 371
     },
     {
-      "Annotation": "Brotli C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.framework.js.br",
-      "Action": "\"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Brotli/win_x86_64/brotli.exe\" -o \"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.framework.js.br\" -i \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js\" --comment \"UnityWeb Compressed Content (brotli)\"",
+      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
+      "Action": "\"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/Tools/7z.exe\" a -tgzip \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js\"",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.framework.js.br"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
       ],
       "ToBuildDependencies": [
         371
@@ -14281,20 +14288,90 @@
       "DebugActionIndex": 372
     },
     {
-      "Annotation": "Brotli C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.wasm.br",
-      "Action": "\"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Brotli/win_x86_64/brotli.exe\" -o \"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.wasm.br\" -i \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm\" --comment \"UnityWeb Compressed Content (brotli)\"",
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/HanoiGame.framework.js.gz_y0xf.info",
+      "ActionType": "WriteTextFile",
+      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"D:\\\\UnityHub\\\\Editor\\\\2021.3.18f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\WebGLSupport\\\\WebGLPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.framework.js.gz\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\"],\"targetDirectories\":[]}}",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/HanoiGame.framework.js.gz_y0xf.info"
+      ],
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 373
+    },
+    {
+      "Annotation": "GzipMarker C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.framework.js.gz",
+      "Action": "\"D:\\UnityHub\\Editor\\2021.3.18f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\UnityHub\\Editor\\2021.3.18f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/UnityHub/Editor/2021.3.18f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\HanoiGame.framework.js.gz_y0xf.info\"",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
+        "Library/Bee/artifacts/csharpactions/HanoiGame.framework.js.gz_y0xf.info",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+      ],
+      "Outputs": [
+        "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.framework.js.gz"
+      ],
+      "ToBuildDependencies": [
+        372,
+        373
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 374
+    },
+    {
+      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
+      "Action": "\"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/Tools/7z.exe\" a -tgzip \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm\"",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.wasm.br"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
       ],
       "ToBuildDependencies": [
         369
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 373
+      "DebugActionIndex": 375
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/HanoiGame.wasm.gz_brhs.info",
+      "ActionType": "WriteTextFile",
+      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"D:\\\\UnityHub\\\\Editor\\\\2021.3.18f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\WebGLSupport\\\\WebGLPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.wasm.gz\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\"],\"targetDirectories\":[]}}",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/HanoiGame.wasm.gz_brhs.info"
+      ],
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 376
+    },
+    {
+      "Annotation": "GzipMarker C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.wasm.gz",
+      "Action": "\"D:\\UnityHub\\Editor\\2021.3.18f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\UnityHub\\Editor\\2021.3.18f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/UnityHub/Editor/2021.3.18f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\HanoiGame.wasm.gz_brhs.info\"",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
+        "Library/Bee/artifacts/csharpactions/HanoiGame.wasm.gz_brhs.info",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+      ],
+      "Outputs": [
+        "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.wasm.gz"
+      ],
+      "ToBuildDependencies": [
+        375,
+        376
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 377
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -14308,7 +14385,7 @@
       "ToBuildDependencies": [
         1
       ],
-      "DebugActionIndex": 374
+      "DebugActionIndex": 378
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -14322,7 +14399,7 @@
       "ToBuildDependencies": [
         2
       ],
-      "DebugActionIndex": 375
+      "DebugActionIndex": 379
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
@@ -14333,7 +14410,7 @@
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 376
+      "DebugActionIndex": 380
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -14359,31 +14436,66 @@
       ],
       "ToBuildDependencies": [
         2,
-        376
+        380
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 377
+      "DebugActionIndex": 381
     },
     {
-      "Annotation": "Brotli C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.data.br",
-      "Action": "\"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Brotli/win_x86_64/brotli.exe\" -o \"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.data.br\" -i \"Library/Bee/artifacts/WebGL/webgl.data\" --comment \"UnityWeb Compressed Content (brotli)\"",
+      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
+      "Action": "\"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/Tools/7z.exe\" a -tgzip \"Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"Library/Bee/artifacts/WebGL/webgl.data\"",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.data.br"
+        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
       ],
       "ToBuildDependencies": [
-        377
+        381
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 378
+      "DebugActionIndex": 382
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/HanoiGame.data.gz_9dkx.info",
+      "ActionType": "WriteTextFile",
+      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"D:\\\\UnityHub\\\\Editor\\\\2021.3.18f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\WebGLSupport\\\\WebGLPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.data.gz\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/webgl.data.unmarked\"],\"targetDirectories\":[]}}",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/HanoiGame.data.gz_9dkx.info"
+      ],
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 383
+    },
+    {
+      "Annotation": "GzipMarker C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.data.gz",
+      "Action": "\"D:\\UnityHub\\Editor\\2021.3.18f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\UnityHub\\Editor\\2021.3.18f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/UnityHub/Editor/2021.3.18f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\HanoiGame.data.gz_9dkx.info\"",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
+        "Library/Bee/artifacts/csharpactions/HanoiGame.data.gz_9dkx.info",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
+        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+      ],
+      "Outputs": [
+        "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.data.gz"
+      ],
+      "ToBuildDependencies": [
+        382,
+        383
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 384
     },
     {
       "Annotation": "PreprocessJS C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.loader.js",
-      "Action": "cd /d \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/EDDY/Desktop/VNU\\x5fGame\\x2dDecision\\x2dAnalysis/HanoiGame/Build/HanoiGame.loader.js'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='\\u9673\\u7948\\u7fd4'\" \"PRODUCT_NAME='HanoiGame'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1080\" \"HEIGHT=720\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='HanoiGame.data.br'\" \"FRAMEWORK_FILENAME='HanoiGame.framework.js.br'\" \"CODE_FILENAME='HanoiGame.wasm.br'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.18f1'\" \"LOADER_FILENAME='HanoiGame.loader.js'\"",
+      "Action": "cd /d \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/EDDY/Desktop/VNU\\x5fGame\\x2dDecision\\x2dAnalysis/HanoiGame/Build/HanoiGame.loader.js'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='\\u9673\\u7948\\u7fd4'\" \"PRODUCT_NAME='HanoiGame'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1080\" \"HEIGHT=720\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='HanoiGame.data.gz'\" \"FRAMEWORK_FILENAME='HanoiGame.framework.js.gz'\" \"CODE_FILENAME='HanoiGame.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=0\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.18f1'\" \"LOADER_FILENAME='HanoiGame.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -14391,11 +14503,11 @@
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.loader.js"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 379
+      "DebugActionIndex": 385
     },
     {
       "Annotation": "PreprocessJS C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/index.html",
-      "Action": "cd /d \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/EDDY/Desktop/VNU\\x5fGame\\x2dDecision\\x2dAnalysis/HanoiGame/index.html'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='\\u9673\\u7948\\u7fd4'\" \"PRODUCT_NAME='HanoiGame'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1080\" \"HEIGHT=720\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='HanoiGame.data.br'\" \"FRAMEWORK_FILENAME='HanoiGame.framework.js.br'\" \"CODE_FILENAME='HanoiGame.wasm.br'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.18f1'\" \"LOADER_FILENAME='HanoiGame.loader.js'\"",
+      "Action": "cd /d \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/EDDY/Desktop/VNU\\x5fGame\\x2dDecision\\x2dAnalysis/HanoiGame/index.html'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='\\u9673\\u7948\\u7fd4'\" \"PRODUCT_NAME='HanoiGame'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1080\" \"HEIGHT=720\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='HanoiGame.data.gz'\" \"FRAMEWORK_FILENAME='HanoiGame.framework.js.gz'\" \"CODE_FILENAME='HanoiGame.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=0\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.18f1'\" \"LOADER_FILENAME='HanoiGame.loader.js'\"",
       "Inputs": [
         "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -14403,7 +14515,7 @@
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/index.html"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 380
+      "DebugActionIndex": 386
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/favicon.ico",
@@ -14414,7 +14526,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 381
+      "DebugActionIndex": 387
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/fullscreen-button.png",
@@ -14425,7 +14537,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 382
+      "DebugActionIndex": 388
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-empty-dark.png",
@@ -14436,7 +14548,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 383
+      "DebugActionIndex": 389
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-empty-light.png",
@@ -14447,7 +14559,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 384
+      "DebugActionIndex": 390
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-full-dark.png",
@@ -14458,7 +14570,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 385
+      "DebugActionIndex": 391
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-full-light.png",
@@ -14469,11 +14581,11 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 386
+      "DebugActionIndex": 392
     },
     {
       "Annotation": "PreprocessJS C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/style.css",
-      "Action": "cd /d \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/EDDY/Desktop/VNU\\x5fGame\\x2dDecision\\x2dAnalysis/HanoiGame/TemplateData/style.css'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='\\u9673\\u7948\\u7fd4'\" \"PRODUCT_NAME='HanoiGame'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1080\" \"HEIGHT=720\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='HanoiGame.data.br'\" \"FRAMEWORK_FILENAME='HanoiGame.framework.js.br'\" \"CODE_FILENAME='HanoiGame.wasm.br'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.18f1'\" \"LOADER_FILENAME='HanoiGame.loader.js'\"",
+      "Action": "cd /d \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/EDDY/Desktop/VNU\\x5fGame\\x2dDecision\\x2dAnalysis/HanoiGame/TemplateData/style.css'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='\\u9673\\u7948\\u7fd4'\" \"PRODUCT_NAME='HanoiGame'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1080\" \"HEIGHT=720\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='HanoiGame.data.gz'\" \"FRAMEWORK_FILENAME='HanoiGame.framework.js.gz'\" \"CODE_FILENAME='HanoiGame.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=0\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.18f1'\" \"LOADER_FILENAME='HanoiGame.loader.js'\"",
       "Inputs": [
         "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -14481,7 +14593,7 @@
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/style.css"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 387
+      "DebugActionIndex": 393
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/unity-logo-dark.png",
@@ -14492,7 +14604,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 388
+      "DebugActionIndex": 394
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/unity-logo-light.png",
@@ -14503,7 +14615,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 389
+      "DebugActionIndex": 395
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/webgl-logo.png",
@@ -14514,7 +14626,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 390
+      "DebugActionIndex": 396
     },
     {
       "Annotation": "Player",
@@ -14524,26 +14636,26 @@
       "ToBuildDependencies": [
         1,
         365,
-        372,
-        373,
         374,
-        375,
+        377,
         378,
         379,
-        380,
-        381,
-        382,
-        383,
         384,
         385,
         386,
         387,
         388,
         389,
-        390
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 391
+      "DebugActionIndex": 397
     }
   ],
   "FileSignatures": [
@@ -14912,7 +15024,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 391
+          "Player": 397
         }
 ,  "DefaultNodes": [
     0
