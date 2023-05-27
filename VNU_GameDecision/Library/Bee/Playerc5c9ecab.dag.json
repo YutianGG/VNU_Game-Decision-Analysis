@@ -396,13 +396,7 @@
         388,
         389,
         390,
-        391,
-        392,
-        393,
-        394,
-        395,
-        396,
-        397
+        391
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -14271,13 +14265,13 @@
       "DebugActionIndex": 371
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "Action": "\"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/Tools/7z.exe\" a -tgzip \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js\"",
+      "Annotation": "Brotli C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.framework.js.br",
+      "Action": "\"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Brotli/win_x86_64/brotli.exe\" -o \"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.framework.js.br\" -i \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js\" --comment \"UnityWeb Compressed Content (brotli)\"",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.framework.js.br"
       ],
       "ToBuildDependencies": [
         371
@@ -14287,90 +14281,20 @@
       "DebugActionIndex": 372
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/HanoiGame.framework.js.gz_y0xf.info",
-      "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"D:\\\\UnityHub\\\\Editor\\\\2021.3.18f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\WebGLSupport\\\\WebGLPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.framework.js.gz\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\"],\"targetDirectories\":[]}}",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/HanoiGame.framework.js.gz_y0xf.info"
-      ],
-      "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 373
-    },
-    {
-      "Annotation": "GzipMarker C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.framework.js.gz",
-      "Action": "\"D:\\UnityHub\\Editor\\2021.3.18f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\UnityHub\\Editor\\2021.3.18f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/UnityHub/Editor/2021.3.18f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\HanoiGame.framework.js.gz_y0xf.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/HanoiGame.framework.js.gz_y0xf.info",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.framework.js.gz"
-      ],
-      "ToBuildDependencies": [
-        372,
-        373
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 374
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "Action": "\"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/Tools/7z.exe\" a -tgzip \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm\"",
+      "Annotation": "Brotli C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.wasm.br",
+      "Action": "\"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Brotli/win_x86_64/brotli.exe\" -o \"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.wasm.br\" -i \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm\" --comment \"UnityWeb Compressed Content (brotli)\"",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.wasm.br"
       ],
       "ToBuildDependencies": [
         369
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 375
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/HanoiGame.wasm.gz_brhs.info",
-      "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"D:\\\\UnityHub\\\\Editor\\\\2021.3.18f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\WebGLSupport\\\\WebGLPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.wasm.gz\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\"],\"targetDirectories\":[]}}",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/HanoiGame.wasm.gz_brhs.info"
-      ],
-      "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 376
-    },
-    {
-      "Annotation": "GzipMarker C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.wasm.gz",
-      "Action": "\"D:\\UnityHub\\Editor\\2021.3.18f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\UnityHub\\Editor\\2021.3.18f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/UnityHub/Editor/2021.3.18f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\HanoiGame.wasm.gz_brhs.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/HanoiGame.wasm.gz_brhs.info",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.wasm.gz"
-      ],
-      "ToBuildDependencies": [
-        375,
-        376
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 377
+      "DebugActionIndex": 373
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -14384,7 +14308,7 @@
       "ToBuildDependencies": [
         1
       ],
-      "DebugActionIndex": 378
+      "DebugActionIndex": 374
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -14398,7 +14322,7 @@
       "ToBuildDependencies": [
         2
       ],
-      "DebugActionIndex": 379
+      "DebugActionIndex": 375
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
@@ -14409,7 +14333,7 @@
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 380
+      "DebugActionIndex": 376
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -14435,66 +14359,31 @@
       ],
       "ToBuildDependencies": [
         2,
-        380
+        376
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 381
+      "DebugActionIndex": 377
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "Action": "\"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/Tools/7z.exe\" a -tgzip \"Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"Library/Bee/artifacts/WebGL/webgl.data\"",
+      "Annotation": "Brotli C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.data.br",
+      "Action": "\"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Brotli/win_x86_64/brotli.exe\" -o \"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.data.br\" -i \"Library/Bee/artifacts/WebGL/webgl.data\" --comment \"UnityWeb Compressed Content (brotli)\"",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.data.br"
       ],
       "ToBuildDependencies": [
-        381
+        377
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 382
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/HanoiGame.data.gz_9dkx.info",
-      "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"D:\\\\UnityHub\\\\Editor\\\\2021.3.18f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\WebGLSupport\\\\WebGLPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.data.gz\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/webgl.data.unmarked\"],\"targetDirectories\":[]}}",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/HanoiGame.data.gz_9dkx.info"
-      ],
-      "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 383
-    },
-    {
-      "Annotation": "GzipMarker C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.data.gz",
-      "Action": "\"D:\\UnityHub\\Editor\\2021.3.18f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\UnityHub\\Editor\\2021.3.18f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/UnityHub/Editor/2021.3.18f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\HanoiGame.data.gz_9dkx.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/HanoiGame.data.gz_9dkx.info",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
-        "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.data.gz"
-      ],
-      "ToBuildDependencies": [
-        382,
-        383
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 384
+      "DebugActionIndex": 378
     },
     {
       "Annotation": "PreprocessJS C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.loader.js",
-      "Action": "cd /d \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/EDDY/Desktop/VNU\\x5fGame\\x2dDecision\\x2dAnalysis/HanoiGame/Build/HanoiGame.loader.js'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='\\u9673\\u7948\\u7fd4'\" \"PRODUCT_NAME='VNU\\x5fGameDecision'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1080\" \"HEIGHT=720\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='HanoiGame.data.gz'\" \"FRAMEWORK_FILENAME='HanoiGame.framework.js.gz'\" \"CODE_FILENAME='HanoiGame.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.18f1'\" \"LOADER_FILENAME='HanoiGame.loader.js'\"",
+      "Action": "cd /d \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/EDDY/Desktop/VNU\\x5fGame\\x2dDecision\\x2dAnalysis/HanoiGame/Build/HanoiGame.loader.js'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='\\u9673\\u7948\\u7fd4'\" \"PRODUCT_NAME='HanoiGame'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1080\" \"HEIGHT=720\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='HanoiGame.data.br'\" \"FRAMEWORK_FILENAME='HanoiGame.framework.js.br'\" \"CODE_FILENAME='HanoiGame.wasm.br'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.18f1'\" \"LOADER_FILENAME='HanoiGame.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -14502,11 +14391,11 @@
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/Build/HanoiGame.loader.js"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 385
+      "DebugActionIndex": 379
     },
     {
       "Annotation": "PreprocessJS C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/index.html",
-      "Action": "cd /d \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/EDDY/Desktop/VNU\\x5fGame\\x2dDecision\\x2dAnalysis/HanoiGame/index.html'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='\\u9673\\u7948\\u7fd4'\" \"PRODUCT_NAME='VNU\\x5fGameDecision'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1080\" \"HEIGHT=720\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='HanoiGame.data.gz'\" \"FRAMEWORK_FILENAME='HanoiGame.framework.js.gz'\" \"CODE_FILENAME='HanoiGame.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.18f1'\" \"LOADER_FILENAME='HanoiGame.loader.js'\"",
+      "Action": "cd /d \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/EDDY/Desktop/VNU\\x5fGame\\x2dDecision\\x2dAnalysis/HanoiGame/index.html'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='\\u9673\\u7948\\u7fd4'\" \"PRODUCT_NAME='HanoiGame'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1080\" \"HEIGHT=720\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='HanoiGame.data.br'\" \"FRAMEWORK_FILENAME='HanoiGame.framework.js.br'\" \"CODE_FILENAME='HanoiGame.wasm.br'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.18f1'\" \"LOADER_FILENAME='HanoiGame.loader.js'\"",
       "Inputs": [
         "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -14514,7 +14403,7 @@
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/index.html"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 386
+      "DebugActionIndex": 380
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/favicon.ico",
@@ -14525,7 +14414,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 387
+      "DebugActionIndex": 381
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/fullscreen-button.png",
@@ -14536,7 +14425,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 388
+      "DebugActionIndex": 382
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-empty-dark.png",
@@ -14547,7 +14436,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 389
+      "DebugActionIndex": 383
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-empty-light.png",
@@ -14558,7 +14447,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 390
+      "DebugActionIndex": 384
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-full-dark.png",
@@ -14569,7 +14458,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 391
+      "DebugActionIndex": 385
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-full-light.png",
@@ -14580,11 +14469,11 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 392
+      "DebugActionIndex": 386
     },
     {
       "Annotation": "PreprocessJS C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/style.css",
-      "Action": "cd /d \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/EDDY/Desktop/VNU\\x5fGame\\x2dDecision\\x2dAnalysis/HanoiGame/TemplateData/style.css'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='\\u9673\\u7948\\u7fd4'\" \"PRODUCT_NAME='VNU\\x5fGameDecision'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1080\" \"HEIGHT=720\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='HanoiGame.data.gz'\" \"FRAMEWORK_FILENAME='HanoiGame.framework.js.gz'\" \"CODE_FILENAME='HanoiGame.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.18f1'\" \"LOADER_FILENAME='HanoiGame.loader.js'\"",
+      "Action": "cd /d \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/EDDY/Desktop/VNU\\x5fGame\\x2dDecision\\x2dAnalysis/HanoiGame/TemplateData/style.css'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='\\u9673\\u7948\\u7fd4'\" \"PRODUCT_NAME='HanoiGame'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1080\" \"HEIGHT=720\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='HanoiGame.data.br'\" \"FRAMEWORK_FILENAME='HanoiGame.framework.js.br'\" \"CODE_FILENAME='HanoiGame.wasm.br'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.18f1'\" \"LOADER_FILENAME='HanoiGame.loader.js'\"",
       "Inputs": [
         "D:/UnityHub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -14592,7 +14481,7 @@
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/style.css"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 393
+      "DebugActionIndex": 387
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/unity-logo-dark.png",
@@ -14603,7 +14492,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 394
+      "DebugActionIndex": 388
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/unity-logo-light.png",
@@ -14614,7 +14503,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 395
+      "DebugActionIndex": 389
     },
     {
       "Annotation": "CopyFiles C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/webgl-logo.png",
@@ -14625,7 +14514,7 @@
       "Outputs": [
         "C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 396
+      "DebugActionIndex": 390
     },
     {
       "Annotation": "Player",
@@ -14635,26 +14524,26 @@
       "ToBuildDependencies": [
         1,
         365,
+        372,
+        373,
         374,
-        377,
+        375,
         378,
         379,
+        380,
+        381,
+        382,
+        383,
         384,
         385,
         386,
         387,
         388,
         389,
-        390,
-        391,
-        392,
-        393,
-        394,
-        395,
-        396
+        390
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 397
+      "DebugActionIndex": 391
     }
   ],
   "FileSignatures": [
@@ -15023,7 +14912,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 397
+          "Player": 391
         }
 ,  "DefaultNodes": [
     0
