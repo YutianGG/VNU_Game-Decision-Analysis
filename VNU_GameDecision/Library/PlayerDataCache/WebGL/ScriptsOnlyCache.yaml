@@ -92,27 +92,27 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1594}
+      Script: {instanceID: 10728}
     - Class: 114
-      Script: {instanceID: 1808}
+      Script: {instanceID: 10942}
     - Class: 114
-      Script: {instanceID: 2744}
+      Script: {instanceID: 11200}
     - Class: 114
-      Script: {instanceID: 2978}
+      Script: {instanceID: 11874}
     - Class: 114
-      Script: {instanceID: 3308}
+      Script: {instanceID: 12102}
     - Class: 114
-      Script: {instanceID: 5252}
+      Script: {instanceID: 12430}
     - Class: 114
-      Script: {instanceID: 5936}
+      Script: {instanceID: 14348}
     - Class: 114
-      Script: {instanceID: 6290}
+      Script: {instanceID: 15016}
     - Class: 114
-      Script: {instanceID: 6864}
+      Script: {instanceID: 15368}
     - Class: 114
-      Script: {instanceID: 30482}
+      Script: {instanceID: 15938}
     - Class: 114
-      Script: {instanceID: 30976}
+      Script: {instanceID: 16588}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -192,6 +192,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 15a405230be69e52838083efc2afb9f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HanoiTower
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -866,6 +872,12 @@ ScriptsOnlyBuild:
     className: RuleTile
   - hash:
       serializedVersion: 2
+      Hash: 2150408d1ffa7dd9239698015f8187ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Select
+  - hash:
+      serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1056,19 +1068,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 15a405230be69e52838083efc2afb9f9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HanoiTower
-  - hash:
-      serializedVersion: 2
-      Hash: 2150408d1ffa7dd9239698015f8187ec
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Select
   platform: 20
   scenePathNames:
   - Assets/Scenes/Tower of Hanoi.unity
-  playerPath: C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/Game
+  playerPath: C:/Users/EDDY/Desktop/VNU_Game-Decision-Analysis/HanoiGame
