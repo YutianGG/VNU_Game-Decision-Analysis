@@ -21,9 +21,6 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_JSONSerialize();
 	RegisterModule_JSONSerialize();
 
-	void RegisterModule_Physics2D();
-	RegisterModule_Physics2D();
-
 	void RegisterModule_RuntimeInitializeOnLoadManagerInitializer();
 	RegisterModule_RuntimeInitializeOnLoadManagerInitializer();
 
@@ -119,9 +116,6 @@ class Texture2DArray; template <> void RegisterUnityClass<Texture2DArray>(const 
 class Texture3D; template <> void RegisterUnityClass<Texture3D>(const char*);
 class TimeManager; template <> void RegisterUnityClass<TimeManager>(const char*);
 class Transform; template <> void RegisterUnityClass<Transform>(const char*);
-class BoxCollider2D; template <> void RegisterUnityClass<BoxCollider2D>(const char*);
-class Collider2D; template <> void RegisterUnityClass<Collider2D>(const char*);
-class Physics2DSettings; template <> void RegisterUnityClass<Physics2DSettings>(const char*);
 namespace TextRendering { class Font; } template <> void RegisterUnityClass<TextRendering::Font>(const char*);
 namespace UI { class Canvas; } template <> void RegisterUnityClass<UI::Canvas>(const char*);
 namespace UI { class CanvasGroup; } template <> void RegisterUnityClass<UI::CanvasGroup>(const char*);
@@ -131,7 +125,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 68 non stripped classes
+	//Total: 65 non stripped classes
 	//0. Animator
 	RegisterUnityClass<Animator>("Animation");
 	//1. AnimatorController
@@ -254,19 +248,13 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<TimeManager>("Core");
 	//60. Transform
 	RegisterUnityClass<Transform>("Core");
-	//61. BoxCollider2D
-	RegisterUnityClass<BoxCollider2D>("Physics2D");
-	//62. Collider2D
-	RegisterUnityClass<Collider2D>("Physics2D");
-	//63. Physics2DSettings
-	RegisterUnityClass<Physics2DSettings>("Physics2D");
-	//64. Font
+	//61. Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//65. Canvas
+	//62. Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//66. CanvasGroup
+	//63. CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//67. CanvasRenderer
+	//64. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
 
 }

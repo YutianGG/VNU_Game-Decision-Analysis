@@ -424,14 +424,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.ComputeShader
 
-	//Start Registrations for type : UnityEngine.ContactFilter2D
-
-		//System.Void UnityEngine.ContactFilter2D::CheckConsistency_Injected(UnityEngine.ContactFilter2D&)
-		void Register_UnityEngine_ContactFilter2D_CheckConsistency_Injected();
-		Register_UnityEngine_ContactFilter2D_CheckConsistency_Injected();
-
-	//End Registrations for type : UnityEngine.ContactFilter2D
-
 	//Start Registrations for type : UnityEngine.Coroutine
 
 		//System.Void UnityEngine.Coroutine::ReleaseCoroutine(System.IntPtr)
@@ -1632,38 +1624,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.ObjectGUIState
 
-	//Start Registrations for type : UnityEngine.Physics2D
-
-		//System.Boolean UnityEngine.Physics2D::get_queriesHitTriggers()
-		void Register_UnityEngine_Physics2D_get_queriesHitTriggers();
-		Register_UnityEngine_Physics2D_get_queriesHitTriggers();
-
-		//UnityEngine.RaycastHit2D[] UnityEngine.Physics2D::GetRayIntersectionAll_Internal_Injected(UnityEngine.PhysicsScene2D&,UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,System.Int32)
-		void Register_UnityEngine_Physics2D_GetRayIntersectionAll_Internal_Injected();
-		Register_UnityEngine_Physics2D_GetRayIntersectionAll_Internal_Injected();
-
-	//End Registrations for type : UnityEngine.Physics2D
-
-	//Start Registrations for type : UnityEngine.PhysicsScene2D
-
-		//System.Int32 UnityEngine.PhysicsScene2D::GetRayIntersectionArray_Internal_Injected(UnityEngine.PhysicsScene2D&,UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,System.Int32,UnityEngine.RaycastHit2D[])
-		void Register_UnityEngine_PhysicsScene2D_GetRayIntersectionArray_Internal_Injected();
-		Register_UnityEngine_PhysicsScene2D_GetRayIntersectionArray_Internal_Injected();
-
-		//System.Int32 UnityEngine.PhysicsScene2D::RaycastArray_Internal_Injected(UnityEngine.PhysicsScene2D&,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D[])
-		void Register_UnityEngine_PhysicsScene2D_RaycastArray_Internal_Injected();
-		Register_UnityEngine_PhysicsScene2D_RaycastArray_Internal_Injected();
-
-		//System.Int32 UnityEngine.PhysicsScene2D::RaycastList_Internal_Injected(UnityEngine.PhysicsScene2D&,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,System.Collections.Generic.List`1<UnityEngine.RaycastHit2D>)
-		void Register_UnityEngine_PhysicsScene2D_RaycastList_Internal_Injected();
-		Register_UnityEngine_PhysicsScene2D_RaycastList_Internal_Injected();
-
-		//System.Void UnityEngine.PhysicsScene2D::Raycast_Internal_Injected(UnityEngine.PhysicsScene2D&,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D&)
-		void Register_UnityEngine_PhysicsScene2D_Raycast_Internal_Injected();
-		Register_UnityEngine_PhysicsScene2D_Raycast_Internal_Injected();
-
-	//End Registrations for type : UnityEngine.PhysicsScene2D
-
 	//Start Registrations for type : UnityEngine.Playables.PlayableHandle
 
 		//System.Boolean UnityEngine.Playables.PlayableHandle::IsValid_Injected(UnityEngine.Playables.PlayableHandle&)
@@ -1743,6 +1703,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Quaternion_Inverse_Injected();
 
 	//End Registrations for type : UnityEngine.Quaternion
+
+	//Start Registrations for type : UnityEngine.Random
+
+		//System.Int32 UnityEngine.Random::RandomRangeInt(System.Int32,System.Int32)
+		void Register_UnityEngine_Random_RandomRangeInt();
+		Register_UnityEngine_Random_RandomRangeInt();
+
+	//End Registrations for type : UnityEngine.Random
 
 	//Start Registrations for type : UnityEngine.RectOffset
 
@@ -2115,6 +2083,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Sprite_get_vertices();
 
 	//End Registrations for type : UnityEngine.Sprite
+
+	//Start Registrations for type : UnityEngine.SpriteRenderer
+
+		//System.Void UnityEngine.SpriteRenderer::set_sprite(UnityEngine.Sprite)
+		void Register_UnityEngine_SpriteRenderer_set_sprite();
+		Register_UnityEngine_SpriteRenderer_set_sprite();
+
+	//End Registrations for type : UnityEngine.SpriteRenderer
 
 	//Start Registrations for type : UnityEngine.SystemInfo
 

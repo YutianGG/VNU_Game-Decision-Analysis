@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Tower of Hanoi.unity
-    guid: a54083a9dbd65f342a0b54b721b872b6
+    path: Assets/Scenes/Dice.unity
+    guid: 76ba9e5c6fc33484fbb1e7abebe875d6
   m_configObjects: {}

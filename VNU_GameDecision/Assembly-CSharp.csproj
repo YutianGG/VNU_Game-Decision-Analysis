@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Tower of Hanoi\HanoiTower.cs" />
     <Compile Include="Assets\Scripts\Tower of Hanoi\Select.cs" />
+    <Compile Include="Assets\Scripts\Dice\RollDice.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

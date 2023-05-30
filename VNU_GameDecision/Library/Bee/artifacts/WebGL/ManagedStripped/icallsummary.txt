@@ -89,7 +89,6 @@ UnityEngine.Component::GetComponentsForListInternal
 UnityEngine.Component::get_gameObject
 UnityEngine.Component::get_transform
 UnityEngine.ComputeShader::FindKernel
-UnityEngine.ContactFilter2D::CheckConsistency_Injected
 UnityEngine.Coroutine::ReleaseCoroutine
 UnityEngine.Cubemap::Internal_CreateImpl
 UnityEngine.Cubemap::get_isReadable
@@ -357,12 +356,6 @@ UnityEngine.Object::FindObjectFromInstanceID
 UnityEngine.Object::Internal_CloneSingle
 UnityEngine.ObjectGUIState::Internal_Create
 UnityEngine.ObjectGUIState::Internal_Destroy
-UnityEngine.Physics2D::get_queriesHitTriggers
-UnityEngine.Physics2D::GetRayIntersectionAll_Internal_Injected
-UnityEngine.PhysicsScene2D::GetRayIntersectionArray_Internal_Injected
-UnityEngine.PhysicsScene2D::RaycastArray_Internal_Injected
-UnityEngine.PhysicsScene2D::RaycastList_Internal_Injected
-UnityEngine.PhysicsScene2D::Raycast_Internal_Injected
 UnityEngine.Playables.PlayableHandle::IsValid_Injected
 UnityEngine.Playables.PlayableHandle::GetPlayableType_Injected
 UnityEngine.PlayerConnectionInternal::IsConnected
@@ -378,6 +371,7 @@ UnityEngine.QualitySettings::get_activeColorSpace
 UnityEngine.Quaternion::AngleAxis_Injected
 UnityEngine.Quaternion::Internal_FromEulerRad_Injected
 UnityEngine.Quaternion::Inverse_Injected
+UnityEngine.Random::RandomRangeInt
 UnityEngine.RectOffset::get_bottom
 UnityEngine.RectOffset::get_horizontal
 UnityEngine.RectOffset::get_left
@@ -456,6 +450,7 @@ UnityEngine.Sprite::get_associatedAlphaSplitTexture
 UnityEngine.Sprite::get_texture
 UnityEngine.Sprite::get_uv
 UnityEngine.Sprite::get_vertices
+UnityEngine.SpriteRenderer::set_sprite
 UnityEngine.SystemInfo::IsFormatSupported
 UnityEngine.SystemInfo::SupportsTextureFormatNative
 UnityEngine.SystemInfo::GetMaxRenderTextureSize

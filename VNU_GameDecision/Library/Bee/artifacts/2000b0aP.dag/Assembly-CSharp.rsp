@@ -294,6 +294,7 @@
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/Dice/RollDice.cs"
 "Assets/Scripts/Tower of Hanoi/HanoiTower.cs"
 "Assets/Scripts/Tower of Hanoi/Select.cs"
 -langversion:9.0
