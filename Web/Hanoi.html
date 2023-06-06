@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HanoiTower</title>
+</head>
+<body>
+
+        <h2>盒內塔運行結果</h2>
+        <div>
+            請輸入盤數：<input type="number" id="num" min="2">
+            <button id="send" onclick="main()">運行</button></div>
+
+    <script>
+    function hanoiTower(dishs, peg1, peg2, peg3) {
+        if (dishs === 1) {
+          document.write("盤子從 " + peg1 + " 移到 " + peg3);
+          document.write("<p>");
+        } else {
+          hanoiTower(dishs - 1, peg1, peg3, peg2);
+          document.write("盤子從 " + peg1 + " 移到 " + peg3);
+          document.write("<p>");
+          hanoiTower(dishs - 1, peg2, peg1, peg3);
+        }
+      }
+      
+      function main() {
+        const n = document.getElementById("num").value;
+        if(n >= 2) 
+            hanoiTower(n, 1, 2, 3);
+      }
+      </script>
+</body>
+</html>

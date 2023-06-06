@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FourDice</title>
+    
+</head>
+<body>
+    <h2>洗芭樂</h2>
+    <div>
+        請輸入賭注：<input type="number" id="num" >
+        <button id="send" onclick="playRound()">擲骰子</button></div>
+        <p id="total"> </p>
+        <p id="a"> </p>
+        <p id="b"> </p>
+        <p id="c"> </p>
+        <p id="d"> </p>
+        <p id="e"> </p>
+
+    <script>
+        let totalScore = 0;
+        function playRound() {
+            var dice = []; 
+            
+            let betsum = 0;
+            var bet =  parseInt(document.getElementById("num").value,10) ;
+            document.getElementById("total").innerHTML = "目前總分：" + totalScore;
+            for(let n = 0; n < 4 ; n++){
+                dice[n] = rollDice(); 
+            }       
+            if (bet == 0) {
+              document.getElementById("total").innerHTML=("遊戲結束。最終總分：" + totalScore);
+            }
+            if (bet < 0) {
+                document.getElementById("a").innerHTML = "無效的賭注。請輸入一個數字。";
+                document.getElementById("b").innerHTML=" ";
+                document.getElementById("c").innerHTML=" ";
+                document.getElementById("d").innerHTML=" ";
+            }
+
+            document.getElementById("a").innerHTML = "第1顆骰子：" + dice[0];
+            document.getElementById("b").innerHTML = "第2顆骰子：" + dice[1];
+            document.getElementById("c").innerHTML = "第3顆骰子：" + dice[2];
+            document.getElementById("d").innerHTML = "第4顆骰子：" + dice[3];
+
+            dice.sort((a, b) => a - b);
+            if (isFourOfAKind(dice)) {
+              totalScore += betsum;
+              document.getElementById("e").innerHTML = "豹子！四顆骰子一樣，獲得賭注：" + betsum + "，剩餘骰子的總和：" + totalScore;
+            } else if (isThreeOfAKind(dice)) {
+                document.getElementById("e").innerHTML= "三顆骰子一樣，重來！";
+            } else if (isTwoOfAKind(dice)) {
+              const sum = getSumOfRemainingDice(dice);
+              totalScore += sum;
+              betsum += bet;
+              document.getElementById("e").innerHTML= "兩顆骰子一樣，獲得賭注：" + betsum + "，剩餘骰子的總和：" + totalScore;
+            } else {
+                document.getElementById("e").innerHTML= "沒有相同的骰子，重來！" ;
+            } 
+        }
+        function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+        }
+        function rollDice() {
+          return getRandomInt(5)+1;
+        }
+        function isFourOfAKind(dice) {
+          return dice[0] === dice[3];
+        }
+        function isThreeOfAKind(dice) {
+          return dice[0] === dice[2] || dice[1] === dice[3];
+        }
+        function isTwoOfAKind(dice) {
+          return dice[0] === dice[1] || dice[1] === dice[2] || dice[2] === dice[3];
+        }
+        function getSumOfRemainingDice(dice) {
+          if (dice[0] === dice[1]) {
+            return dice[2] + dice[3];
+          } else {
+            return dice[0] + dice[1];
+          }
+        }
+      </script>
+</body>

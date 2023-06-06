@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>井字遊戲</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    table td {
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      border: 1px solid black;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>井字遊戲</h1>
+  <table>
+    <tr>
+      <td onclick="makeMove(0, 0)"></td>
+      <td onclick="makeMove(0, 1)"></td>
+      <td onclick="makeMove(0, 2)"></td>
+    </tr>
+    <tr>
+      <td onclick="makeMove(1, 0)"></td>
+      <td onclick="makeMove(1, 1)"></td>
+      <td onclick="makeMove(1, 2)"></td>
+    </tr>
+    <tr>
+      <td onclick="makeMove(2, 0)"></td>
+      <td onclick="makeMove(2, 1)"></td>
+      <td onclick="makeMove(2, 2)"></td>
+    </tr>
+  </table>
+
+  <script>
+    let currentPlayer = 'X';
+    let board = [
+      ['', '', ''],
+      ['', '', ''],
+      ['', '', '']
+    ];
+
+    function makeMove(row, col) {
+      if (board[row][col] === '') {
+        board[row][col] = currentPlayer;
+        document.getElementsByTagName('td')[row * 3 + col].innerHTML = currentPlayer;
+        
+        currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+        
+        if (currentPlayer === 'O') {
+          makeComputerMove();
+        }
+
+        if (checkWin(currentPlayer)) {
+          alert('玩家 ' + currentPlayer + ' 獲勝！');
+          resetBoard();
+          return;
+        }
+        
+        if (checkDraw()) {
+          alert('平局！');
+          resetBoard();
+          return;
+        }
+        
+       
+      }
+    }
+
+    function makeComputerMove() {
+      
+      for (let i = 0; i < 3; i++) {
+        for (let j = 0; j < 3; j++) {
+          if (board[i][j] === '') {
+            board[i][j] = 'O';
+            document.getElementsByTagName('td')[i * 3 + j].innerHTML = 'O';
+            
+            if (checkWin('O')) {
+              alert('電腦獲勝！');
+              resetBoard();
+              return;
+            }
+            
+            if (checkDraw()) {
+              alert('平局！');
+              resetBoard();
+              return;
+            }
+            
+            currentPlayer = 'X';
+            return;
+          }
+        }
+      }
+    }
+
+    function checkWin(player) {
+      // 檢查列和行
+      for (let i = 0; i < 3; i++) {
+        if (
+          board[i][0] === player &&
+          board[i][1] === player &&
+          board[i][2] === player
+        ) {
+          return true;
+        }
+        if (
+          board[0][i] === player &&
+          board[1][i] === player &&
+          board[2][i] === player
+        ) {
+          return true;
+        }
+      }
+
+      // 檢查對角線
+      if (
+        board[0][0] === player &&
+        board[1][1] === player &&
+        board[2][2] === player
+      ) {
+        return true;
+      }
+      if (
+        board[2][0] === player &&
+        board[1][1] === player &&
+        board[0][2] === player
+      ) {
+        return true;
+      }
+
+      return false;
+    }
+
+    function checkDraw() {
+      for (let i = 0; i < 3; i++) {
+        for (let j = 0; j < 3; j++) {
+          if (board[i][j] === '') {
+            return false;
+          }
+        }
+      }
+      return true;
+    }
+
+    function resetBoard() {
+      board = [
+        ['', '', ''],
+        ['', '', ''],
+        ['', '', '']
+      ];
+      let cells = document.getElementsByTagName('td');
+      for (let i = 0; i < cells.length; i++) {
+        cells[i].innerHTML = '';
+      }
+    }
+  </script>
+</body>
+</html>

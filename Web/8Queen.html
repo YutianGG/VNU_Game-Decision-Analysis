@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8Queen</title>
+</head>
+<body>
+    <h1>8Queen 運行結果</h1>
+    <script>
+        class Queue8 {
+            constructor() {
+              this.max = 9; // 皇后个数
+              this.count = 0; // 判断有几种解法
+              this.num = 0; // 判断检测冲突次数
+              this.arr = new Array(this.max);
+            }
+          
+            main() {
+              this.check(1);
+              console.log(this.count);
+              console.log(this.num);
+            }
+          
+            // 递归
+            check(n) {
+              // n 为1-8，代表第n+1个皇后
+              if (n === this.max) {
+                this.print(); // n=8 退出
+                return;
+              }
+              // 依次放，判断是否OK
+              for (let i = 1; i < this.max; i++) {
+                this.arr[n] = i;
+                if (this.adjust(n)) {
+                  this.check(n + 1); // 如果不冲突，接着放n+1
+                } else {
+                  // 关键
+                  // adjust(4)在i=0时不冲突，进入adjust(5)，如果冲突了，即adjust(5)=i(i=0)冲突了，将不执行adjust(6)，而是进行for循环，adjust(5)=i(i=1)，继续判断冲突...
+                  // 如果adjust(5)=i遍历全部仍然冲突，将回溯到adjust(4)，进行遍历，即adjust(4)在i=1时
+                  // 包含了多层嵌套
+                }
+              }
+            }
+          
+            // 检测是否冲突
+            adjust(n) {
+              this.num++;
+              for (let i = 1; i < n; i++) {
+                if (
+                  this.arr[i] === this.arr[n] ||
+                  Math.abs(n - i) === Math.abs(this.arr[n] - this.arr[i])
+                ) {
+                  // 同一列或者斜线（类似斜率）arr[i]代表的是第i+1个的所在列数+1
+                  return false;
+                }
+              }
+              return true;
+            }
+          
+            // 输出打印，每输出一次即为一种解法，参考check()方法的使用
+            print() {
+              for (let i = 1; i < this.arr.length; i++) {
+                document.write(this.arr[i] + ' ');
+              }
+              this.count++;
+              document.write("<p>");
+            }
+          }
+          
+          const queue8 = new Queue8();
+          queue8.main();
+        </script>
+</body>
+</html>
