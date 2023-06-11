@@ -12,26 +12,43 @@
         document.write("<p>");
         document.write("未滿十八歲不得購買及兌換彩券！");
         document.write("<p>");
+        let num = new Array(6);
+        let lotto = new Array(49); // 建立樂透號碼陣列
+        for (let i = 1; i <= 6; i++) { 
+            document.write("["+ i + "]      "); 
+            for (let j = 0; j < 49; j++) 
+                lotto[j] = j + 1; 
+            let count = 0; 
+            do {
+                let guess = Math.floor(Math.random() * 49);
+                if (lotto[guess] === 0)
+                    continue;
+                else {
+                    num[count] = lotto[guess];
+                    lotto[guess] = 0; 
+                    count++;
+                }
+            } while (count < 6); 
+            bubbleSort(num);
+            for (let k = 0; k < 6; k++)
+            {
+                document.write(num[k] + "  ");
+            }
+            document.write("<p>"); // 每產生一組號碼就換行
+        }
 
-    let lotto = new Array(49); // 建立樂透號碼陣列
-    for (let i = 1; i <= 6; i++) { 
-        document.write("["+ i + "]      "); 
-        for (let j = 0; j < 49; j++) 
-            lotto[j] = j + 1; 
-    let count = 0; // 用來記錄已產生幾個號碼
-    do {
-    let guess = Math.floor(Math.random() * 49);
-    // console.log(`${guess} ,`);
-    if (lotto[guess] === 0) // 若號碼所指的元素值為 0, 表示此數字已出現過, 就重新執行迴圈, 產生另一亂數
-      continue;
-    else {
-        document.write(lotto[guess] + "  ");
-        lotto[guess] = 0; // 將號碼所指的元素值設為 0, 以免重複用到
-        count++;
+    function bubbleSort(array){
+    const length = array.length;
+    for (let i = 0; i < length; i++) {
+        for (let j = 0; j < length; j++) {
+            if(array[j] > array[j+1]) {
+                let temp = array[j]
+                array[j] = array[j+1];
+                array[j+1] = temp;
+            }
+        }
     }
-    } while (count < 6); // 輸出 6 個號碼才停止
-     document.write("<p>"); // 每產生一組號碼就換行
-    }
+}
     </script>
 </body>
 </html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>五子棋</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    td {
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      border: 1px solid black;
+      cursor: pointer;
+    }
+    .black {
+        background-color: #204c8557;
+    }
+    .white {
+        background-color: #df8d124f;
+    }
+  </style>
+</head>
+<body>
+  <h1>五子棋</h1>
+  <table id="chessboard"></table>
+  <button onclick="resetBoard()">重置棋盤</button>
+  <script>
+    const chessboardSize = 15;
+    const chessboard = [];
+    let currentPlayer = "black";
+    for (let i = 0; i < chessboardSize; i++) {
+      chessboard[i] = [];
+      for (let j = 0; j < chessboardSize; j++) {
+        chessboard[i][j] = "";
+      }
+    }
+    function checkWin(row, col) {
+      const directions = [
+        [1, 0], // 水平方向
+        [0, 1], // 垂直方向
+        [1, 1], // 主對角線方向
+        [1, -1] // 副對角線方向
+      ];
+
+      for (const direction of directions) {
+        const [dx, dy] = direction;
+        let count = 1;
+
+        // 向前檢查
+        let newRow = row - dx;
+        let newCol = col - dy;
+        while (
+          newRow >= 0 &&
+          newRow < chessboardSize &&
+          newCol >= 0 &&
+          newCol < chessboardSize &&
+          chessboard[newRow][newCol] === currentPlayer
+        ) {
+          count++;
+          newRow -= dx;
+          newCol -= dy;
+        }
+
+        // 向後檢查
+        newRow = row + dx;
+        newCol = col + dy;
+        while (
+          newRow >= 0 &&
+          newRow < chessboardSize &&
+          newCol >= 0 &&
+          newCol < chessboardSize &&
+          chessboard[newRow][newCol] === currentPlayer
+        ) {
+          count++;
+          newRow += dx;
+          newCol += dy;
+        }
+
+        // 判斷是否有五子連線
+        if (count >= 5) {
+          return true;
+        }
+      }
+
+      return false;
+    }
+    function placePiece(row, col) {
+      if (chessboard[row][col] === "") {
+        chessboard[row][col] = currentPlayer;
+        displayChessboard();
+        if (checkWin(row, col)) {
+          alert(`${currentPlayer.toUpperCase()} 獲勝！`);
+          resetBoard();
+        } else {
+          currentPlayer = currentPlayer === "black" ? "white" : "black";
+        }
+      }
+    }
+    function resetBoard() {
+      for (let i = 0; i < chessboardSize; i++) {
+        for (let j = 0; j < chessboardSize; j++) {
+          chessboard[i][j] = "";
+        }
+      }
+      displayChessboard();
+    }
+    function displayChessboard() {
+      const chessboardElement = document.getElementById("chessboard");
+      chessboardElement.innerHTML = "";
+
+      for (let i = 0; i < chessboardSize; i++) {
+        const row = document.createElement("tr");
+
+        for (let j = 0; j < chessboardSize; j++) {
+          const cell = document.createElement("td");
+          cell.addEventListener("click", function() {
+            placePiece(i, j);
+          });
+
+          if (chessboard[i][j] === "black") {
+            cell.classList.add("black");
+            cell.textContent = '●';
+          } else if (chessboard[i][j] === "white") {
+            cell.classList.add("white");
+            cell.textContent = '○';
+          }
+          row.appendChild(cell);
+        }
+        chessboardElement.appendChild(row);
+      }
+    }
+    displayChessboard();
+  </script>
+</body>
+</html>
