@@ -28,10 +28,14 @@
   <h1>八皇后問題</h1>
   <table id="chessboard"></table>
   <button onclick="resetBoard()">重置棋盤</button>
+  <button onclick="undoMove()">回到上一步</button>
 
   <script>
     const chessboardSize = 8;
     const chessboard = [];
+    const history = []; // 存儲每一步的棋盤狀態
+    let currentStep = 0; // 當前的步數
+
     for (let i = 0; i < chessboardSize; i++) {
       chessboard[i] = [];
       for (let j = 0; j < chessboardSize; j++) {
@@ -60,12 +64,22 @@
     function placeQueen(row, col) {
       if (isSafe(row, col)) {
         chessboard[row][col] = 1;
+        currentStep++;
+        if (currentStep < history.length) {
+          history.splice(currentStep); // 移除後面的步數
+        }
+        history.push(JSON.parse(JSON.stringify(chessboard))); // 儲存當前棋盤狀態
         displayChessboard();
       }
     }
     
     function removeQueen(row, col) {
       chessboard[row][col] = 0;
+      currentStep++;
+      if (currentStep < history.length) {
+        history.splice(currentStep); // 移除後面的步數
+      }
+      history.push(JSON.parse(JSON.stringify(chessboard))); // 儲存當前棋盤狀態
       displayChessboard();
     }
     
@@ -97,15 +111,29 @@
     }
     
     function resetBoard() {
+      currentStep = 0; // 重置當前步數
+      chessboard.splice(0, chessboard.length); // 清空棋盤狀態
       for (let i = 0; i < chessboardSize; i++) {
+        chessboard[i] = [];
         for (let j = 0; j < chessboardSize; j++) {
           chessboard[i][j] = 0;
         }
       }
-
+      history.splice(0, history.length); // 清空棋盤狀態歷史紀錄
+      history.push(JSON.parse(JSON.stringify(chessboard))); // 儲存初始棋盤狀態
       displayChessboard();
     }
-    displayChessboard();
+
+    function undoMove() {
+      if (currentStep > 0) {
+        currentStep--;
+        chessboard.splice(0, chessboard.length); // 清空棋盤狀態
+        chessboard.push(...JSON.parse(JSON.stringify(history[currentStep]))); // 回到上一步的棋盤狀態
+        displayChessboard();
+      }
+    }
+    
+    resetBoard();
   </script>
 </body>
 </html>
