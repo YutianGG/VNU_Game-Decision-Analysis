@@ -49,7 +49,7 @@
       attempts++;
       const result = calculateResult(secretNumber, guess);
 
-      const resultText = `結果：${result[0]}A${result[1]}B<br>`;
+      const resultText = `猜測：${guess}，結果：${result[0]}A${result[1]}B<br>`;
       document.getElementById('result').innerHTML += resultText;
 
       if (result[0] === 4) {
