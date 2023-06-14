@@ -7,14 +7,18 @@
     <title>Lotto</title>
 </head>
 <body>
+    <Input Type="Button" Value="重新生成" onClick="window.location.reload();">
+    <p></p>
     <script>
-        document.write("樂透電腦選號──自動產生6組號碼");
+        document.write("樂透電腦選號──自動產生2組號碼");
         document.write("<p>");
         document.write("未滿十八歲不得購買及兌換彩券！");
         document.write("<p>");
-        let num = new Array(6);
-        let lotto = new Array(49); // 建立樂透號碼陣列
-        for (let i = 1; i <= 6; i++) { 
+        
+            let num = new Array(6);
+            let lotto = new Array(49); // 建立樂透號碼陣列
+
+            for (let i = 1; i <= 2; i++) { 
             document.write("["+ i + "]      "); 
             for (let j = 0; j < 49; j++) 
                 lotto[j] = j + 1; 
@@ -35,20 +39,21 @@
                 document.write(num[k] + "  ");
             }
             document.write("<p>"); // 每產生一組號碼就換行
-        }
+            }
+      
 
     function bubbleSort(array){
-    const length = array.length;
-    for (let i = 0; i < length; i++) {
-        for (let j = 0; j < length; j++) {
-            if(array[j] > array[j+1]) {
-                let temp = array[j]
-                array[j] = array[j+1];
-                array[j+1] = temp;
+        const length = array.length;
+        for (let i = 0; i < length; i++) {
+            for (let j = 0; j < length; j++) {
+                if(array[j] > array[j+1]) {
+                    let temp = array[j]
+                    array[j] = array[j+1];
+                    array[j+1] = temp;
+                }
             }
         }
     }
-}
     </script>
 </body>
 </html>
